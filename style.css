@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+
+* {
+    font-family: 'Spartan';
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+}
+
+h1 {
+    color: hsl(300, 43%, 22%);
+    font-size: 60px;
+    line-height: 60px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    min-width: 600px;
+}
+
+.heading {
+    margin-left: 20px;
+}
+
+.container {
+    margin: 150px;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    margin-top: 10px;
+}
+
+.info {
+    display: flex;
+}
+
+.boxes {
+    display: flex;
+    color: white;
+    justify-content: center;
+    position: relative;
+    top: 150px;
+    min-width: 500px;
+}
+
+.review1 {
+    position: relative;
+    left: 400px;
+}
+.review2 {
+    position: relative;
+    left: 450px;
+}
+.review3 {
+    position: relative;
+    left: 500px;
+}
+
+h4 {
+    margin-left: 50px;
+}
+
+.str {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+.mainp {
+    color: hsl(300, 43%, 22%);
+    font-weight: 500;
+}
+
+.review1, .review2, .review3 {
+    color: hsl(300, 43%, 22%);
+    display: flex;
+    padding: 20px;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 7px;
+    margin: 20px;
+    width: 500px;
+    align-items: center;
+}
+
+p {
+    line-height: 30px;
+}
+
+.profile-paragraph {
+    min-width: 360px;
+    margin: 10px;
+}
+
+img {
+    max-width: 45px;
+}
+
+h5 {
+    font-weight: 500;
+    font-size: 15px;
+    padding-left: 25px;
+    line-height: 25px;
+}
+
+span {
+    font-weight: 400;
+    color: hsl(333, 80%, 67%);
+    opacity: 0.6;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.cont1, .cont2, .cont3 {
+    margin: 20px;
+    padding: 30px;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+}
+
+.cont2 {
+    position: relative;
+    top: 20px;
+}
+
+.cont3 {
+    position: relative;
+    top: 40px;
+}
